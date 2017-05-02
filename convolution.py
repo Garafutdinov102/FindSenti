@@ -3,8 +3,6 @@ from pandas import read_csv
 import csv
 import re
 
-
-
 def division(b):
     
     if b[0:2] == 'RT':
@@ -153,12 +151,5 @@ def main():
                 sum_b+=1
         print(i, vir_b,sum_b)
     
-    print(len(dic))
-
-    
-                
-        
-
-    
-    
+    print(len(dic)   
 main()
