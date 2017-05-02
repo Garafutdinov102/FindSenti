@@ -113,7 +113,6 @@ def main():
         if i == 0:
             continue
         print (i, news[i]['text'])
-    
 
 
 main()
